@@ -1140,6 +1140,47 @@ body {
           animation: leaf-ans-3 3s linear infinite;
 }
 
+.poem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+.focus-in-expand {
+	-webkit-animation: focus-in-expand 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-expand 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+
 @-webkit-keyframes leaf-ans-1 {
   0%, 100% {
     transform: rotate(-5deg) scale(1);
