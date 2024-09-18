@@ -75,7 +75,7 @@ body{
 
 /* Estilo para el botón */
 .button button {
-    background-color: yellow; /* Fondo amarillo */
+    background: linear-gradient(90deg, rgba(255,248,0,1) 0%, rgba(205,0,255,1) 100%); /* Fondo amarillo */
     border: none; /* Sin bordes */
     display: flex;
     padding: 1.2rem 2rem;
@@ -94,11 +94,5 @@ body{
     color: inherit; /* Hereda el color del texto del botón */
     font-size: 1rem;
 }
-  
-  /* Efecto de resplandor al pasar el cursor sobre el botón */
-  .button button:hover {
-    background-color: orange; /* Cambia el color de fondo al pasar el mouse a naranja */
-    box-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow; /* Efecto de resplandor amarillo */
-  }
   
   
