@@ -1152,6 +1152,9 @@ body {
   animation-delay: 3s;
   z-index: 100000;
 }
+audio::-webkit-media-controls-panel {
+  background: linear-gradient(45deg, rgb(255,248,0) 0%, rgb(205,0,255) 100%); /* Fondo amarillo */
+}
 
 @-webkit-keyframes focus-in-expand {
   0% {
