@@ -37,7 +37,7 @@ body {
 
 .flowers {
   position: relative;
-  transform: scale(0.9);
+  transform: scale(0.85);
 }
 
 .flower {
@@ -1141,6 +1141,9 @@ body {
 }
 
 .poem {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   width: 100%;
   position: absolute;
   top: 0;

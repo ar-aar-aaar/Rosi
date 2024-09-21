@@ -17,12 +17,12 @@ body{
     font-weight: 900;
 }
 .greetings > span{
-    animation: glow 2.5s ease-in-out infinite;
+    animation: glow 2s ease-in-out infinite;
 }
 @keyframes glow{
     0%, 100%{
         color: #fff;
-        text-shadow: 0 0 12px #fbff00, 0 0 50px #fbff00, 0 0 100px #fbff00;
+        text-shadow: 0 0 12px #fbff00, 0 0 50px rgb(205,0,255), 0 0 100px rgb(205,0,255);
     }
     10%, 90%{
         color: #696565;
@@ -47,11 +47,6 @@ body{
     margin-bottom: 20px;
 }
 
-.button a{
-    text-decoration: none;
-    font-size: 1rem;
-    color: #111;
-}
 
 @media screen and (max-width:574px){
     .greetings{
@@ -75,8 +70,9 @@ body{
 
 /* Estilo para el botón */
 .button button {
-    background: linear-gradient(90deg, rgba(255,248,0,1) 0%, rgba(205,0,255,1) 100%); /* Fondo amarillo */
+    background: linear-gradient(60deg, rgba(255,248,0,1) 0%, rgba(205,0,255,1) 100%); /* Fondo amarillo */
     border: none; /* Sin bordes */
+    color: #111;
     display: flex;
     padding: 1.2rem 2rem;
     align-items: center;
